@@ -42,7 +42,7 @@ var sleeping = []
 
 
 
-$.get('../Catalyst.svg').done(function(data) {
+$.get('./Catalyst.svg').done(function(data) {
     // var color = Common.choose(['#556270', '#4ECDC4', '#C7F464', '#FF6B6B', '#C44D58']);
     var color = "#333333";
     $(data).find('path').each(function(i, path) {
