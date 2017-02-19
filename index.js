@@ -21,8 +21,8 @@ var render = Render.create({
     engine: engine,
     wireframes: false,
     options: {
-        width: document.documentElement.clientWidth,
-        height: document.documentElement.clientHeight / 2
+        width: document.body.clientWidth,
+        height: document.body.clientHeight / 2
     }
 });
 
